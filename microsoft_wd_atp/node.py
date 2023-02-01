@@ -689,6 +689,7 @@ class OutputBatch(ActorBaseFT):
                 description=description,
                 creationTimeDateTimeUtc=creation,
                 expirationTime=expiration,
+                generateAlert=False
                 action=self.action
             )
             if self.severity is not None:
