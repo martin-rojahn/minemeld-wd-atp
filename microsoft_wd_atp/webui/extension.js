@@ -259,7 +259,7 @@ function MSFTWDATPTenantIDController($modalInstance) {
 function MSFTWDATPActionController($modalInstance) {
     var vm = this;
 
-    vm.availableActions = ['Alert', 'AlertAndBlock', 'Allowed'];
+    vm.availableActions = ['Allowed', 'Audit', 'Block', 'BlockAndRemediate'];
     vm.action = undefined;
     vm.valid = function() {
         if (!vm.action) {
