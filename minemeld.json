@@ -6,7 +6,6 @@
     "description": "MineMeld Nodes for Microsoft WD-ATP API",
     "entry_points": {
         "minemeld_nodes": {
-            "microsoft_wd_atp.Output": "microsoft_wd_atp.node:Output",
             "microsoft_wd_atp.OutputBatch": "microsoft_wd_atp.node:OutputBatch"
         },
         "minemeld_prototypes": {
