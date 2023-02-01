@@ -1,29 +1,12 @@
 url: https://www.microsoft.com/en-us/windowsforbusiness/windows-atp
 description: >
-  Nodes for Microsoft Windows Defender ATP API
+  Nodes for Microsoft Windows Defender for Endpoint API
 
 prototypes:
-  output:
-    author: Palo Alto Networks TBD
-    class: microsoft_wd_atp.Output
-    development_status: DEPRECATED
-    node_type: output
-    indicator_types:
-      - URL
-      - IPv4
-      - domain
-    tags:
-      - deprecated
-      - extension
-      - wd-atp
-    description: >
-      Output node for Microsoft Windows Defender ATP API - DEPRECATED
-    config: {}
-
   outputBatch:
-    author: Palo Alto Networks TBD
+    author: Palo Alto Feat. Martin Rojahn
     class: microsoft_wd_atp.OutputBatch
-    development_status: EXPERIMENTAL
+    development_status: PRODUCTION
     node_type: output
     indicator_types:
       - URL
@@ -33,7 +16,6 @@ prototypes:
       - sha256
     tags:
       - extension
-      - wd-atp
     description: >
-      Output node for Microsoft Windows Defender ATP API (Batch)
+      Output node for Microsoft Windows Defender for Endpoint API (Batch)
     config: {}
