@@ -1,7 +1,7 @@
 {
-    "version": "0,5",
+    "version": "1,0",
     "name": "minemeld-wd-atp",
-    "author": "Palo Alto Networks",
+    "author": "Palo Alto Feat. Martin Rojahn",
     "author_email": "techbizdev@paloaltonetworks.com",
     "description": "MineMeld Nodes for Microsoft WD-ATP API",
     "entry_points": {
