@@ -455,7 +455,7 @@ class OutputBatch(ActorBaseFT):
         self.client_id = self.config.get('client_id', None)
         self.client_secret = self.config.get('client_secret', None)
         self.tenant_id = self.config.get('tenant_id', None)
-        self.action = self.config.get('action', 'Alert')
+        self.action = self.config.get('action', None)
         self.severity = self.config.get('severity', None)
 
         self.side_config_path = self.config.get('side_config', None)
